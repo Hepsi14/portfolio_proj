@@ -364,16 +364,22 @@ p {
 	font-size: 4rem;
 	font-weight: 500;
 	color: white;
+	
 }
 #projects .project-info h2 {
 	font-size: 3rem;
 	font-weight: 500;
 	margin-top: 10px;
 	color: green;
+	margin-left:20px;
 }
+#projects .project-info h2:hover {
+	box-shadow: 0px 0px 5px 0 #54E346;
+	}
 #projects .project-info p {
 	color: white;
 	font-size: 2rem;
+	
 }
 /*#projects .project-img {
 	flex-basis: 50%;
@@ -399,116 +405,7 @@ p {
 }
 /* End Projects section */
 
-/*#projects .projects {
-	flex-direction: column;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 10px 0;
-}
-#projects .projects-header h1 {
-	margin-bottom: 50px;
-	text-align:top;
-	
-}
-/.container {
-  min-height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: top;
-  padding: 100px ;
-  background-color: green;
-}*
-#projects .project-info {
-  width: 80%;
-  height: auto;
-  max-width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
 
-#projects .project-info ul {
-  list-style: none;
-}
-#projects .project-item ul li {
-  padding: 20px;
-  background-color: #1e1f22;
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-#projects .project-item ul li:last-child {
-  margin-bottom: 10;
-}
-#projects .project-item-content h1 {
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
-  margin-bottom: 10px;
-}
-#projects .project-item-content p {
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 300;
-}
-#projects .project-item-content .date {
-  font-size: 12px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-}
-
-  #projects .project-info:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 100%;
-    background-color: gray;
-  }
-  #projects .project-item ul li {
-    width: 50%;
-    position: relative;
-    margin-bottom: 50px;
-  }
-  #projects .project-item ul li:nth-child(odd) {
-    float: left;
-    clear: right;
-    transform: translateX(-30px);
-    border-radius: 20px 0px 20px 20px;
-  }
-  #projects .project-item ul li:nth-child(odd) {
-    float: right;
-    clear: left;
-    transform: translateX(30px);
-    border-radius: 0px 20px 20px 20px;
-  }
-  #projects .project-item ul li::before {
-    content: "";
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: gray;
-    top: 0px;
-  }
-  #projects .project-item ul li:nth-child(odd)::before {
-    transform: translate(50%, -50%);
-    right: -30px;
-  }
-  #projects .project-item ul li:nth-child(even)::before {
-    transform: translate(-50%, -50%);
-    left: -30px;
-  }
-  #projects .project-info-content .date {
-    position: absolute;
-    top: -30px;
-  }
-  #projects .project-item ul li:hover::before {
-    background-color: aqua;
-  }
 
 
 
